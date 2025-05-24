@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleApp1\Entities.csproj" />
+  </ItemGroup>
+
 </Project>
