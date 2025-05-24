@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ConsoleApp1\Entities.csproj" />
+    <ProjectReference Include="..\DataPersistence\DataPersistence.csproj" />
   </ItemGroup>
 
 </Project>
