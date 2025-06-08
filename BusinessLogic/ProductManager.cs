@@ -19,12 +19,12 @@ namespace BusinessLogic
                 throw new Exception("El nombre no puede estar vacio");
             }
 
-            if (Product.Price < 1)
+            if (product.Price < 1)
             {
                 throw new Exception("El precio debe ser mayor que 0");    
             }
 
-            if Product.Stock < 0)
+            if (product.Stock < 1)
             {
                 throw new Exception("El stock debe ser mayor que 0");
             }

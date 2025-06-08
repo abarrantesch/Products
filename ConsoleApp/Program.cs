@@ -1,4 +1,5 @@
-﻿using Entities;
+﻿using BusinessLogic;
+using Entities;
 using System.Diagnostics;
 using System.Xml.Linq;
 
@@ -33,11 +34,11 @@ public class Program
 
                     var myProduct = new Product() { Id = id, Name = name, Stock = stock, Price = price }; //instancia de la clase producto
 
-                    var pm=new ProductManager() { Id = id, Name = name, Stock = stock, Price = price } //COMPLETAR
+                    var pm = new ProductManager(); //COMPLETAR
 
                         try
                     {
-                        Pm.addProduct(myProduct);
+                        pm.AddProduct(myProduct);
                     }
                     catch (Exception ex)
                     {

@@ -8,7 +8,7 @@ namespace Entities
 {
     public class ProductBase
     {
-        public int ID{get; set; }
-        public string Nombre{get; set; }
+        public int Id{get; set; }
+        public string Name { get; set; }
     }
 }
